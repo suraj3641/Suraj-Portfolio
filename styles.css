@@ -4,49 +4,18 @@ body {
     margin: 0;
     padding: 0;
     transition: background 0.3s, color 0.3s;
+    
   }
   
+
   .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
   }
-  /* Navigation */
-  nav {
-    background: #0d0d0c;
-    color: #fff;
-    padding: 1rem 0;
-  }
   
-  nav .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    
-  }
+ 
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #theme-toggle {
-    background:#878684 ;
-    border: none;
-    color: #323130;
-    font-size: 1rem;
-    cursor: pointer;
-    height: 20%;
-    width: 14%;
-    border-radius: 10%;
-
-
-  }
   
   /* Hero Section */
   .hero {

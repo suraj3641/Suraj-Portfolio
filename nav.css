@@ -1,0 +1,57 @@
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5b00;
+    text-decoration: dotted;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  
+    background-color: #eee2db;
+    border-radius: 5%;
+   
+}
+
+  /* Navigation */
+  nav {
+    background: #0d0d0c;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+
+
+#theme-toggle {
+  background:#eee2db ;
+  border: none;
+  color: #9e6731;
+  font-size: 1rem;
+  cursor: pointer;
+  height: 20%;
+  width: 14%;
+  border-radius: 10%;
+
+
+}
+
+
+
+
