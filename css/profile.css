@@ -1,0 +1,103 @@
+.profile-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.profile-card1 {
+    background: rgb(230, 85, 19);
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(221, 167, 4, 0.2);
+    text-align: center;
+}
+
+.profile-img1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.icons3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;  /* Responsive Width */
+    height: 40vw; /* Responsive Height */
+    max-width: 450px;
+    max-height: 450px;
+    animation: rotateCircle 50s linear infinite;
+}
+
+.floating-icon {
+    position: absolute;
+    font-size: 4vw; /* Makes icons responsive */
+    transition: transform 0.3s;
+    margin-top: 10px;
+}
+
+.html { top: 5%; left: 50%; transform: translate(-50%, -50%); color: #bf3c2c; }
+.css { top: 20%; left: 85%; transform: translate(-50%, -50%); color: #233566; }
+.js { top: 50%; left: 95%; transform: translate(-50%, -50%); color: yellow; }
+.react { top: 80%; left: 85%; transform: translate(-50%, -50%); color: #36c; }
+.node { top: 95%; left: 50%; transform: translate(-50%, -50%); color: #1c9963; }
+.bootstrap { top: 80%; left: 15%; transform: translate(-50%, -50%); color: #36c; }
+.github { top: 50%; left: 5%; transform: translate(-50%, -50%); color: #f6763a; }
+.mongodb { top: 20%; left: 15%; transform: translate(-50%, -50%); color: #099979; }
+
+@keyframes rotateCircle {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Tablet Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .profile-img1 {
+        width: 200px;
+        height: 200px;
+    }
+    .icons3 {
+        width: 100vw;
+        height: 100vw;
+    }
+    .floating-icon {
+        font-size: 11vw;
+    }
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 768px) {
+    .profile-img1 {
+        width: 150px;
+        height: 150px;
+    }
+    .icons3 {
+        width: 60vw;
+        height: 60vw;
+        
+    }
+    .floating-icon {
+        font-size: 10vw;
+    }
+}
+
+/* Small Mobile Adjustments */
+@media screen and (max-width: 480px) {
+    .profile-img1 {
+        width: 120px;
+        height: 120px;
+    }
+    .icons3 {
+        width: 70vw;
+        height: 70vw;
+       
+    }
+    .floating-icon {
+        font-size: 9vw;
+    }
+}
