@@ -8,7 +8,7 @@
 }
 
 .profile-card1 {
-    background: rgb(230, 85, 19);
+    background: rgb(125, 121, 119);
     padding: 15px;
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(221, 167, 4, 0.2);
@@ -27,10 +27,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40vw;  /* Responsive Width */
-    height: 40vw; /* Responsive Height */
-    max-width: 450px;
-    max-height: 450px;
+    width: 50vw;  /* Responsive Width */
+    height: 50vw; /* Responsive Height */
+    max-width: 500px;
+    max-height: 500px;
     animation: rotateCircle 50s linear infinite;
 }
 
@@ -38,7 +38,6 @@
     position: absolute;
     font-size: 4vw; /* Makes icons responsive */
     transition: transform 0.3s;
-    margin-top: 10px;
 }
 
 .html { top: 5%; left: 50%; transform: translate(-50%, -50%); color: #bf3c2c; }
@@ -55,22 +54,52 @@
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-/* Tablet Responsive Adjustments */
+/* Large Screen Adjustments (Desktops > 1440px) */
+@media screen and (min-width: 1441px) {
+    .profile-img1 {
+        width: 350px;
+        height: 350px;
+    }
+    .icons3 {
+        width: 40vw;
+        height: 40vw;
+    }
+    .floating-icon {
+        font-size: 3vw;
+    }
+}
+
+/* Tablet Responsive Adjustments (Medium Devices: 1024px - 1440px) */
+@media screen and (max-width: 1440px) {
+    .profile-img1 {
+        width: 250px;
+        height: 250px;
+    }
+    .icons3 {
+        width: 45vw;
+        height: 45vw;
+    }
+    .floating-icon {
+        font-size: 4.5vw;
+    }
+}
+
+/* Smaller Tablets (768px - 1023px) */
 @media screen and (max-width: 1024px) {
     .profile-img1 {
         width: 200px;
         height: 200px;
     }
     .icons3 {
-        width: 100vw;
-        height: 100vw;
+        width: 50vw;
+        height: 50vw;
     }
     .floating-icon {
-        font-size: 11vw;
+        font-size: 6vw;
     }
 }
 
-/* Mobile Adjustments */
+/* Mobile Adjustments (480px - 767px) */
 @media screen and (max-width: 768px) {
     .profile-img1 {
         width: 150px;
@@ -79,14 +108,13 @@
     .icons3 {
         width: 60vw;
         height: 60vw;
-        
     }
     .floating-icon {
-        font-size: 10vw;
+        font-size: 7vw;
     }
 }
 
-/* Small Mobile Adjustments */
+/* Small Mobile Adjustments (Below 480px) */
 @media screen and (max-width: 480px) {
     .profile-img1 {
         width: 120px;
@@ -95,9 +123,21 @@
     .icons3 {
         width: 70vw;
         height: 70vw;
-       
     }
     .floating-icon {
-        font-size: 9vw;
+        font-size: 8vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
