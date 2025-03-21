@@ -10,6 +10,9 @@ themeToggle.addEventListener('click', () => {
 
 
 
+document.getElementById('learnMore').addEventListener('click', function() {
+  alert('Thank you for your interest! More details coming soon.');
+});
 
 
 

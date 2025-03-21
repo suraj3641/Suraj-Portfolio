@@ -1,0 +1,49 @@
+ /* Skills Section */
+ .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skill {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+.tech-card {
+    background: linear-gradient(to bottom, #ffe5d9, #ffccb3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.tech-card:hover {
+    transform: translateY(-5px);
+}
+.tech-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.tech-name{
+    font-weight: bold;
+}

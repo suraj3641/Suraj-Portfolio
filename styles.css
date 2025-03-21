@@ -35,19 +35,9 @@ body {
     margin-bottom: 2rem;
   }
   
-  /* Skills Section */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-  }
-  
-  .skill {
-    background: #f4f4f4;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 5px;
-  }
+
+
+ 
   
   /* Projects Section */
   .projects-grid {

@@ -1,0 +1,73 @@
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile h1{
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+}
+
+.content {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.content p{
+    color: #444;
+}
+
+
+strong {
+    color: #f37423;
+}
+
+
+.profile-section {
+    background-color: rgb(247, 247, 247);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-list li {
+    background-color: #f37423;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .content {
+        font-size: 1em;
+    }
+}
