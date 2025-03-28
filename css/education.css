@@ -1,0 +1,63 @@
+
+.edu-card {
+    background: linear-gradient(to right, #d7b99c, #f5b784);
+    color: #161212;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 850px;
+    height: 250px;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 60px;
+}
+.edu-card h2 {
+    font-weight: bold;
+    color: black;
+}
+.tag {
+    background-color: white;
+    color: #ff5500;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.tag img {
+    width: 20px;
+    margin-right: 5px;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.date-tag {
+    background: #e65100;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+.date-tag img {
+    width: 20px;
+}
+
+.education{
+
+    font-size: 33px;
+    font-weight: bold;
+  
+}
+
+
