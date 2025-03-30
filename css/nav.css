@@ -1,68 +1,88 @@
-
-.custom-button1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  gap: 8px;
+.navbar {
   background: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  font-size: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+ 
+}
+
+.navbar-brand {
   font-weight: bold;
-  color: #ff5b00;
+  font-size: 20px;
+}
+
+.navbar-brand span {
+  color: #f37423;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #666;
+}
+
+/* Navbar Links */
+.nav-item .nav-link {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-item .nav-link:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+/* Toggle Switch */
+.toggle-switch {
+  width: 50px;
+  height: 25px;
+  background: #ddd;
+  border-radius: 25px;
+  position: relative;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
-.custom-button1:hover {
-  background: #f0f0f0;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+.toggle-switch::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #f37423;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  transition: 0.3s;
 }
 
+.dark-mode .toggle-switch::before {
+  left: 26px;
+  background: blue;
+}
 
-  /* Navigation */
-  nav {
-    background: #0d0d0c;
-    color: #fff;
-    padding: 1rem 0;
+.dark-mode {
+  background-color: #111;
+  color: white;
+}
+
+/* Mobile Navbar */
+@media (max-width: 992px) {
+  .navbar-nav {
+      text-align: center;
   }
-  
-  nav .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    
+
+  .nav-item {
+      margin: 5px 0;
   }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-decoration: none;
 }
-
-
-
-#theme-toggle {
-  background:#eee2db ;
-  border: none;
-  color: #9e6731;
-  font-size: 1rem;
-  cursor: pointer;
-  height: 20%;
-  width: 14%;
-  border-radius: 10%;
-
-
-}
-
 
 
 
