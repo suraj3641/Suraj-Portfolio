@@ -1,0 +1,50 @@
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #becbd8;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-section a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link {
+    color: #ff6600;
+}
+
+.whatsapp-link {
+    color: #ff6600;
+}
+
+
+
+/* Hover Effects */
+.email-link:hover, .whatsapp-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(to right, #d7adf0, #fcb045);
+    color: #333;
+    text-align: center;
+    padding: 15px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer span {
+    color: #ff6600;
+}
+
+.heart {
+    color: #f37423;
+}
