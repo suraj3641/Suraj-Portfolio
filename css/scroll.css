@@ -17,7 +17,7 @@
 .scrolling-text {
     display: flex;
     white-space: nowrap;
-    animation: scrollText 10s linear infinite;
+    animation: scrollText 15s linear infinite;
     font-size: 20px;
     font-weight: bold;
 }
